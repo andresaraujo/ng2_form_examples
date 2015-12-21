@@ -8,9 +8,9 @@ import 'package:angular2/angular2.dart' show Component, FORM_DIRECTIVES, View, C
     <div class="line">
       <h2>NgFormModel Example</h2>
 
-      <form [ng-form-model]="loginForm">
-        <p>Login: <input type="text" ng-control="login"></p>
-        <p>Password: <input type="password" ng-control="password"></p>
+      <form [ngFormModel]="loginForm">
+        <p>Login: <input type="text" ngControl="login"></p>
+        <p>Password: <input type="password" ngControl="password"></p>
       </form>
 
       <p>Value:</p>

@@ -7,7 +7,7 @@ import 'package:angular2/angular2.dart' show Component, FORM_DIRECTIVES, View;
     template: '''
   <div class="line">
     <h2>NgModel Example</h2>
-    <input type="text" [(ng-model)]="greeting">
+    <input type="text" [(ngModel)]="greeting">
     <p>{{greeting}}, user!</p>
     <button (click)="switchGreeting()">Change greeting</button>
   </div>
